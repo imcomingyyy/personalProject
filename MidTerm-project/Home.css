@@ -1,0 +1,41 @@
+
+body{
+    background-image: url("https://goshenfarm.org/wp-content/uploads/2015/12/homepage-hero-background.png")
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    text-align: center;
+  }
+
+
+  li a {
+    position: relative;
+    left: 460px;
+    float: left;
+    text-decoration:none;
+    color:rgb(29, 26, 22); 
+    padding: 50px;
+    margin: 0px;
+    font-weight: bold!important;
+    text-align: center;
+    font-size: 200%;
+    color:rgba(0, 0, 255, 0.37);
+    
+  }
+
+.header {
+ font-size: 30pt;
+ text-align: center;
+ color:rgba(0, 0, 255, 0.37);
+}
+
+#ref{
+   padding: 0px;
+   margin: 0px;
+   text-align: center;
+}
+

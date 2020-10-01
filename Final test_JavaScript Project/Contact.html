@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="YYY">
+    <title>Shipping Responsibility</title>
+    <link href="Contact.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <!-- price calc -->
+
+    <h1>Your Shopping List</h1>
+    <fieldset class="urlPic">
+        <table>
+            <tr>
+                <th>items</th>
+                <th>Price</th>
+                <th>Quanlity</th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <td>Glue</td>
+                <td><label>Price: 1.00</label></td>
+                <td> <label> Quanlity</label>
+                    <input type="number" autofocus name="text" id="calcGlue" class="btnClear" min="0" max="9"
+                        maxlength="1" value="0" size="4" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Pen</td>
+                <td><label>Price: 1.00</label></td>
+                <td> <label> Quanlity</label>
+                    <input type="number" autofocus name="text" id="calcPen" class="btnClear" min="0" max="9"
+                        maxlength="1" value="0" size="4" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Pencase</td>
+                <td><label>Price: 1.00</label></td>
+                <td> <label> Quanlity</label>
+                    <input type="number" autofocus name="text" id="calcPencase" class="btnClear" min="0" max="9"
+                        maxlength="1" value="0" size="4" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Eraser</td>
+                <td><label>Price: 1.00</label></td>
+                <td> <label> Quanlity</label>
+                    <input type="number" autofocus name="text" id="calcEraser" class="btnClear" min="0" max="9"
+                        maxlength="1" value="0" size="4" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Subtotal: <input type="text" disabled id="calcTotal" class="btnClear" value="" size="5"></td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Tax:<input type="text" disabled id="calctax" value="" class="btnClear" size="10"></td>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Grand Total:<input type="text" disabled id="calcFtotal" value="" class="btnClear" size="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Free shipping if applied:</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+                <td></td>
+                <td><input type="button" id="calc" value="Calculator"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+    <br>
+
+    <!--a form for asking userName,phone number, zip code, shipping address -->
+
+    <h2>Your Contact Information:</h2>
+
+
+    <fieldset class="urlPic">
+        <label>Order Number:df54a42</label>
+        <br>
+        <label>Name:</label>
+        <input type="text" id="userName" size="30" maxlength="100" class="btnClear" placeholder="No notations" required>
+        <br>
+        <label> Zip Code</label>
+        <input type="text" id="zipCode" class="btnClear" min="5" max="5" maxlength="5" size="5" placeholder="5 digits"
+            required>
+        <br>
+        <label>Phone Number</label>
+        <input type="text" id="phoneNum" class="btnClear" size="10" maxlength="10" min="9" max="10"
+            placeholder="10 or 9 digits" required>
+        <br>
+        <p>Would you like to pick up or deliver your items or both?</p>
+        <label><input type="checkbox" id="Delivery">Delivery </label>
+        <label><input type="checkbox" id="Pickup">Pickup </label>
+
+        <br>
+        <div>
+            <label>Where do you like to pick your items?</label>
+            <select name="selectPickup">
+                <option value="apple valley">Apple Valley</option>
+                <option value="lakeville">Lakeville</option>
+                <option value="rosemount">Rosemount</option>
+
+            </select>
+            <p>Repick option, please press keybord button F5.</p>
+        </div>
+        <br>
+        <div>
+            <label>Shipping Address:</label>
+            <input type="text" id="address" size="30" maxlength="100" class="btnClear" placeholder="" required>
+            <p>Repick option, please press keybord button F5.</p>
+        </div>
+    </fieldset>
+
+
+
+    <fieldset class="urlPic">
+        <input type="submit" value="Sumbit" id="submit">
+        <input type="reset" value="clear" id="clear">
+        <label><a href="Home.html"><input type="button" class="btnOrange" value="Back to the shop"></a>
+        </label>
+    </fieldset>
+
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="Home.js"></script>
+    <script src="Contact.js"></script>
+
+</body>

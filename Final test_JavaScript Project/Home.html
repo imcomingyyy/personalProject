@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="author" content="YYY">
+        <title>One Dollar Shop</title>
+        <link href="Home.css" type="text/css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+        <!--hours= 3+2+4+3+6 +2+4=24h
+        I almost done everything the day before the presentation, but I lost some savedata which cause me to redo all work. I guess I cannot finish all 
+        requirements  and the representation        -->
+        <h1>One Dollar Shop</h1>
+        <form>
+                <!--each <div> to </div> including one item including price, quanlitity, pic,adding to shopping cart-->
+                <div class="img-container">
+
+                        <img src="image/glue.jpg" alt="glue" width="140" height="140">
+                        <label for="itemGlue"><br> Price:1.00
+                                <br>Glue
+                                <br> Quantity:</label>
+
+                        <input type="number" id="tbGlue" name="number" class="clear" min="0" max="9999" maxlength="4"
+                                value="0" required>
+                        <br>
+                        <input type="button" id="btnGlue" class="btnOrange" value="Add to Cart">
+                </div>
+
+
+
+                <div class="img-container">
+                        <img src="image/pen.jpg" alt="pen" width="140" height="140">
+                        <label for="itemPen"><br> Price:1.00
+                                <br>Pens
+                                <br> Quantity:</label>
+
+                        <input type="number" autofocus id="tbPen" name="number" class="clear" min="0" max="9999"
+                                maxlength="4" value="0" required>
+                        <br>
+                        <input type="button" id="btnPen" class="btnOrange" value="Add to Cart">
+
+                </div>
+
+                <div class=" img-container">
+                        <img src="image/pencase.jpg" alt="pencase" width="140" height="140>
+                                <label  for=" itemPensecase"> <br> Price:1.00
+                        <br>Pencase
+                        <br> Quantity:</label>
+
+                        <input type="number" id="tbPencase" name="number" class="clear" min="0" max="9999" maxlength="4"
+                                value="0" required>
+                        <br>
+                        <input type="button" id="btnPencase" class="btnOrange" value="Add to Cart">
+                </div>
+
+                <div class=" img-container">
+                        <img src="image/eraser.jpg" alt="eraser" width="140" height="140>
+                                                <label for=" itemEraser"><br> Price:1.00
+                        <br>Erasers
+                        <br> Quantity:</label>
+
+                        <input type="number" id="tbEraser" name="number" class="clear" min="0" max="9999" maxlength="4"
+                                value="0" required>
+                        <br>
+                        <input type="button" id="btnEraser" class="btnOrange" value="Add to Cart">
+                </div>
+
+                <div class=" img-container">
+                        <img src="image/notebook.jpg" alt="notebook" width="140" height="140>
+                                                <label for=" itemNotebook"><br> Price:1.00
+                        <br>Notebooks
+                        <br> Quantity:</label>
+
+                        <input type="number" name="number" class="clear" min="0" max="9999" maxlength="4" value="0"
+                                required>
+                        <br>
+                        <input type="submit" value="Add to Cart" class="btnOrange">
+                </div>
+
+                <div class=" img-container">
+                        <img src="image/calc.jpg" alt="calc" width="140" height="140">
+                        <label for="itemCalc"><br> Price:1.00
+                                <br>Calculator
+                                <br> Quantity:</label>
+
+                        <input type="number" name="number" class="clear" min="0" max="9999" maxlength="4" value="0"
+                                required>
+                        <br>
+                        <input type="submit" value="Add to Cart" class="btnOrange">
+                </div>
+
+                <div class="img-container">
+                        <img src="image/backpack.jpg" alt="backpack" width="140" height="140">
+                        <label for="itemBackpak"><br> Price:1.00
+                                <br>Backpack
+                                <br> Quantity:</label>
+
+                        <input type="number" name="number" class="clear" min="0" max="9999" maxlength="4" value="0"
+                                required>
+                        <br>
+                        <input type="submit" value="Add to Cart" class="btnOrange">
+                </div>
+
+                <div class="img-container">
+                        <img src="image/WaterBottle.jpg" alt="WaterBottle" width="140" height="140">
+                        <label for="itemWaterBottle"><br> Price:1.00
+                                <br>Water Bottle
+                                <br> Quantity:</label>
+
+                        <input type="number" name="number" class="clear" min="0" max="9999" maxlength="4" value="0"
+                                required>
+                        <br>
+                        <input type="submit" value="Add to Cart" class="btnOrange">
+                </div>
+
+                <div class="img-container">
+                        <img src="image/Binder.jpg" alt="Binder" width="140" height="140">
+                        <label for="itemBinder"><br> Price:1.00
+                                <br>Binder
+                                <br> Quantity:</label>
+
+                        <input type="number" name="number" class="clear" min="0" max="9999" maxlength="4" value="0"
+                                required>
+                        <br>
+                        <input type="submit" value="Add to Cart" class="btnOrange">
+                </div>
+
+                <div class="img-container">
+                        <img src="image/USB.jpeg" alt="USB" width="140" height="140">
+                        <label for="itemUSB"><br> Price:1.00
+                                <br>USB Stick
+                                <br> Quantity:</label>
+
+                        <input type="number" name="number" class="clear" min="0" max="9999" maxlength="4" value="0"
+                                required>
+                        <br>
+                        <input type="submit" value="Add to Cart" class="btnOrange">
+                </div>
+        </form>
+
+        <form>
+                <!--2nd form for navigation bar next page,and clear button -->
+                <div class="img-container">
+                        <label><a href="Contact.html"><input type="button" class="btnOrange"
+                                                value="Shopping Complete"></a>
+                        </label>
+                        <input type="reset" value="Clear" id="clear">
+                </div>
+
+        </form>
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="Home.js"></script>
+
+</body>
+
+</html>

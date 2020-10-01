@@ -1,0 +1,47 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    border-color: cornflowerblue;
+   background-color:skyblue  ;
+    
+
+}
+
+#dctcPic{
+    text-align: center;
+    padding: 3px;
+    
+}
+
+
+h1 ,h2 , h3, h4 {
+    text-align: center;
+    color:rgba(49, 49, 240, 0.747);
+}
+
+p a {
+    text-decoration: none;
+}
+
+
+div.schedule{
+    border-style: solid;
+    border-width: 7px;
+    text-align: left;
+    padding: 10px;
+    margin: 50px;
+    color:rgb(95, 131, 42);
+    
+
+}
+
+#title{
+    text-align: center;
+    
+}
+
+
+
+
+
+

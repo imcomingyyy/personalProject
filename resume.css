@@ -1,0 +1,100 @@
+/* body {
+  background-image: url("./pic/moon light beach.jpg");
+} */
+
+
+/* Add a background video to the top navigation */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 100%;
+}
+
+
+/* Navigation bar */
+
+.topnav {
+    background-color: rgb(17, 122, 163);
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: #4CAF50;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* 
+  ========================================== 
+  keep contents in the center, paragraphies aligned up.*/
+
+section {
+    font-size: 14pt;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5em;
+    position: relative;
+    padding: auto;
+    margin: auto;
+    border-style: auto;
+    background-color: rgba(252, 252, 252, 0.938);
+    text-align: left;
+    float: center;
+    width: 80.90%;
+}
+
+a:hover {
+    text-decoration: overline;
+    text-decoration: underline overline;
+    font: bold;
+    transform: scale(1.25);
+    transition: transform 1.25s ease;
+}
+
+
+/* keep texts on both sides */
+
+#contact span:last-child {
+    text-align: right;
+    float: right;
+}
+
+#title {
+    text-align: center;
+    float: center;
+    font-size: 170%;
+}

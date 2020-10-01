@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link href="home.css" type="text/css" rel="stylesheet" />
+  <!--  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+  <script src="home.js" defer></script>
+
+</head>
+
+<video autoplay muted loop id="myVideo">
+  <source src="./pic/ocean.mp4" type="video/mp4">
+
+</video>
+
+
+<section>
+
+  <body>
+    <div class="topnav" id="topnav">
+      <a href="home.html" class="active">Home</a>
+      <a href="Web_II.html">Web II</a>
+      <a href="Web_I.html">Web I</a>
+
+      <a href="about.html">About</a>
+
+      <a id="git" href=https://github.com/imcomingyyy/School_Project>
+        <img src="pic\git.png" alt="file" width="6.%" height="6.%">
+      </a>
+
+    </div>
+    <div class="content">
+      <div class="para">
+        <h2>Web III Project</h2>
+        <p>This is Web III project embeded with other projects together.
+          This is all projects for my colloge class, to improve codeing skill.
+          For web III class,
+          this is Resume builder can help you to create a professional resume.
+
+          My project is pretty simple.
+          All you need to do is to fill information and click the submit button.
+          Your resume will be showed up on next page
+        </p>
+        <!-- page mapper -->
+        <ul class="sublist">
+          <li><a href="#info" class="subactive">Information</a></li>
+          <br>
+          <li><a href="#pro">Professionals</a></li>
+          <br>
+          <li><a href="#skillSet">Skills </a></li>
+          <br>
+          <li><a href="#exp">Employment</a></li>
+        </ul>
+
+        <hr><!-- basic info -->
+        <!--  action="resume.html" -->
+        <form name="userForm " action="resume.html">
+          <h3 id="info"> Basic Information</h3>
+
+          <label id=" name">First Name</label>
+          <input type="text" id="fname" class="textbox" name="firstname" placeholder="Your name.." size="10"
+            /*required*/ pattern="^[a-zA-Z\s]+$">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." size="10" /*required*/
+            pattern="^[a-zA-Z\s]+$">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="someone@some.com" /*required*/
+            pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+          <br>
+
+          <!--  <input type="button" id="btnFname" class="btnOrange" value="check"> -->
+          <br>
+          <hr><!-- profile ,certificate,and education -->
+
+          <h3 id="pro">Professional Profile and Education</h3>
+          <label for="profile">Profile</label><br>
+          <textarea id="profile" placeholder="An introduction about your self
+      " " rows=" 10" cols="80"></textarea>
+
+          <h3>Education</h3>
+          <label for="school">School</label>
+          <input type="text" id="school" name="school" placeholder="school name " size="70" /*required*/
+            pattern="^[a-zA-Z\s]+$">
+          <br>
+          <label for="major">Majors and Programs</label>
+          <input type="text" id="major" name="major" placeholder="e.g. Accounting, Graphic Design Technology etc"
+            size="50" /*required*/ pattern="^[a-zA-Z\s]+$">
+          <br>
+          <label for="degree">Degree</label>
+          <input type="text" id="degree" name="degree" placeholder="e.g. bachelor degree, Associate etc" size="69"
+            /*required*/ pattern="^[a-zA-Z\s]+$">
+          <br>
+          <br>
+          <hr>
+          <h3 id="skillSet">Summary of Professional Skills</h3>
+          <label for="skill">Skills</label>
+          <input type="text" id="skill" name="skill" placeholder="e.g. photoshop, css, certificate" size="65"
+            /*required*/ <br>
+          <br>
+          <label for="project">Project</label><br>
+          <textarea id="project" placeholder="Describe any projects you had finished
+      " rows="10" cols="80"></textarea>
+          <br>
+          <br>
+          <hr>
+          <!-- Employment Experiences -->
+          <h3 id="exp">Employment Experiences</h3>
+          <label for="jobTitle">Job Title</label>
+          <input type="text" id="jobTitle" name="jobTitle" placeholder="e.g.a cashier, a cook, a driver etc" size="69"
+            /*required*/ pattern="^[a-zA-Z\s]+$">
+          <br>
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="e.g.amazon, google, yahoo" size="67" /*required*/
+            pattern="^[a-zA-Z\s]+$">
+          <br>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" placeholder="e.g.Apple Valley, Burnsville, etc" size="75">
+          <br>
+          <label for="state">State</label>
+          <input type="text" id="state" name="state" placeholder="e.g.MN, , California etc" size="73">
+          <br>
+          <label for="dateHired">Date Started</label>
+          <input type="text" id="dateHired" name="dateHired" placeholder="e.g.2/2/20,12/22/22 etc" size="63">
+          <br>
+          <label for="duty">Describe your responsibilities</label><br>
+          <textarea id="duty" placeholder="Describe any responsibilities you had finished
+       " rows="10" cols="80" /* /*required*/ * /></textarea>
+          <br>
+          <input type="submit" value="Submit" id="submit">
+          <input type="reset" value="Clear" id="clear">
+          <br>
+          <br>
+          <br>
+
+      </div>
+      </form>
+    </div>
+</section>
+
+</body>
+
+</html>

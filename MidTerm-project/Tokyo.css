@@ -1,0 +1,53 @@
+li.list1{
+    font-weight: 200 ;
+    color: rgba(153, 238, 25, 0.781);
+    padding: 10px;
+
+}
+li.list2{
+    font-weight: 200;
+    color: rgba(8, 239, 247, 0.856);
+
+}
+
+li.list3{
+    font-weight: 200 ;
+    color: rgba(252, 65, 8, 0.801);
+
+}
+li.list4{
+    font-weight: 200 ;
+    color:rgb(233, 27, 62);
+
+}
+
+li.list5{
+    font-weight: 200 ;
+    color:rgba(233, 27, 164, 0.89);
+
+}
+
+li.list7{
+    font-weight: 200 ;
+    color:rgb(27, 192, 233);
+
+}
+ul.list{
+    font-weight: bold;
+    color:black;
+}
+
+h1{
+    text-align: center;
+}
+
+
+div#Pic{
+    text-align: center;
+    padding: 3px;
+    
+}
+
+body{
+    background-color: lightseagreen;
+}

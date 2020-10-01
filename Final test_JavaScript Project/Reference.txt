@@ -1,0 +1,8 @@
+jquery.com: 
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjAkdG_yKDiAhUM5awKHWSBCKsQ_AUIDigB&biw=1920&bih=938
+Google: 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+https://www.google.com/
+https://stackoverflow.com/
+https://www.w3schools.com/

@@ -1,0 +1,48 @@
+/*all btn to orange color */
+
+.btnOrange {
+    font-weight: bold;
+    background-color: orange;
+}
+
+body {
+    background-image: url("https://goshenfarm.org/wp-content/uploads/2015/12/homepage-hero-background.png")
+}
+
+/*major styles are right here*/
+
+.urlPic {
+    background-color: rgba(212, 238, 183, 0.363);
+    width: 37.33%;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgba(211, 211, 211, 0.295);
+    text-align: left;
+    margin: auto;
+}
+
+h1, h2 {
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+#clear {
+    background-color: white;
+    border-color: orange;
+}
+
+#submit {
+    font-weight: bold;
+    background-color: orange;
+    text-align: center;
+    margin: auto;
+}
+
+#calc {
+    font-weight: bold;
+    background-color: orange;
+    text-align: center;
+    margin: auto;
+}

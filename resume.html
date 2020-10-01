@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="resume.css" type="text/css" rel="stylesheet" />
+    <title>Resume</title>
+</head>
+<video autoplay muted loop id="myVideo">
+    <source src="./pic/ocean.mp4" type="video/mp4">
+
+</video>
+
+<section>
+
+    <body>
+        <div class="topnav" id="topnav">
+            <a href="home.html" class="active">Home</a>
+            <!-- <a href="resume.html">Resume</a> -->
+
+            <a href="about.html">About</a>
+            
+        </div>
+     
+     
+        <section>
+            <h1 id="title"></h1>
+            <h2 id="contact">
+                <!-- First Name and last          nameEmail+Phone num -->
+            </h2>
+            <hr>
+            <h3>Professional Profile:</h3>
+            <p id="profile">
+                <!-- data -->
+            </p>
+
+            <h3> Eduction</h3>
+            <p id="edu">
+                <!-- data: degree, school, city, state -->
+            </p>
+
+            <h3>Summary of Professional Skills:</h3>
+            <p id="skill">
+
+
+
+                <h3>Applied Professional Skills:</h3>
+                <h4>Project</h4>
+                <p id="project">
+                    <!-- data -->
+                </p>
+
+
+                <h3>Employment Experience:</h3>
+                <p id="jobInfo"> </p>
+                <p id="duty"></p>
+                <br>
+                <br>
+
+        </section>
+       
+      
+
+    </body>
+</section>
+
+<script defer>
+    let info = ['fname', 'lname', 'email', 'profile', 'major', 'school', 'degree', 'skill', 'project', 'jobTitle', 'company', 'city',
+        'state', 'dateHired', 'duty'
+    ];
+
+    /* title */
+    for (let i = 0; i < 1; i++) {
+
+        document.getElementById("title").innerHTML += "" +
+            sessionStorage.getItem(info[i]) + "'s Resume";
+        /* localStorage.clear(); */
+
+    }
+
+    /* contact info */
+    for (let i = 0; i < 3; i++) {
+
+        document.getElementById("contact").innerHTML += "<span> " +
+            sessionStorage.getItem(info[i]) + " </span> ";
+
+
+    }
+    /* profile */
+    for (let i = 3; i < 4; i++) {
+
+        document.getElementById("profile").innerHTML += " " +
+            sessionStorage.getItem(info[i]);
+
+    }
+    /* education */
+    for (let i = 4; i < 7; i++) {
+
+        document.getElementById("edu").innerHTML += " " +
+            sessionStorage.getItem(info[i]) + ",";
+
+    }
+    /* skill */
+    for (let i = 7; i < 8; i++) {
+
+        document.getElementById("skill").innerHTML += " " +
+            sessionStorage.getItem(info[i]);
+
+    }
+    /* project */
+    for (let i = 8; i < 9; i++) {
+
+        document.getElementById("project").innerHTML += " " +
+            sessionStorage.getItem(info[i]);
+
+    }
+
+    /* jobinfo */
+    for (let i = 9; i < 14; i++) {
+
+        document.getElementById("jobInfo").innerHTML += " " +
+            sessionStorage.getItem(info[i]);
+
+    }
+    /* duty */
+    for (let i = 14; i < 15; i++) {
+
+        document.getElementById("duty").innerHTML += " " +
+            sessionStorage.getItem(info[i]);
+
+    }
+ 
+
+</script>
+
+</html>
