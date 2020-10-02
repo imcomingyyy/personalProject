@@ -1,7 +1,7 @@
 #Personal Project
 # Web-I,II,III
-Link to the site:https://imcomingyyy.github.io/School_Project/home.html
-Source: https://github.com/imcomingyyy/School_Project
+Link to the site:https://imcomingyyy.github.io/personalProject/web_II/instruction.html
+Source: 
 
 Web III Project Timeline
 --------------------------------
